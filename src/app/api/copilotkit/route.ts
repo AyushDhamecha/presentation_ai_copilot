@@ -6,7 +6,7 @@ import {
   copilotRuntimeNextJSAppRouterEndpoint,
   OpenAIAdapter,
 } from "@copilotkit/runtime";
-import OpenAI from "openai/index.mjs";
+import OpenAI from "openai";
 
 const UNSPLASH_ACCESS_KEY_ENV = "UNSPLASH_ACCESS_KEY";
 const UNSPLASH_ACCESS_KEY = process.env[UNSPLASH_ACCESS_KEY_ENV];
