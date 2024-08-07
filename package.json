@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@copilotkit/runtime": "1.1.0",
+    "@azure/openai": "^2.0.0-beta.1",
     "@copilotkit/react-core": "1.1.0",
     "@copilotkit/react-textarea": "1.1.0",
     "@copilotkit/react-ui": "1.1.0",
+    "@copilotkit/runtime": "1.1.0",
     "@copilotkit/shared": "1.1.0",
     "@heroicons/react": "^2.1.1",
     "@langchain/community": "^0.0.29",
@@ -22,7 +23,7 @@
     "clsx": "^2.1.0",
     "langchain": "^0.1.19",
     "next": "14.1.0",
-    "openai": "^4.28.0",
+    "openai": "^4.54.0",
     "react": "^18",
     "react-dom": "^18"
   },
